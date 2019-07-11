@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <!--<link rel="stylesheet" href="index.css" media="screen">-->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-    <title>Hello World!</title>
+    <title>Cesium!</title>
   </head>
   <body>
+    <div>
+      <input type = "button" class="cesium-button" onclick="btn_point()" value="Point"/>
+      <input type = "button" class="cesium-button" onclick="btn_line()" value="Line"/>
+      <input type = "button" class="cesium-button" onclick="btn_area()" value="Area"/>
+      <input type = "button" class="cesium-button" onclick="btn_clear()" value="Clear"/>
+    </div>
     <div id='cesiumContainer'></div>
   </body>
+</script> 
+
 </html>
